@@ -2,9 +2,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 .headerContainer{
     display: flex;
+    
 }
 .headerContainer ul{
     display: flex;

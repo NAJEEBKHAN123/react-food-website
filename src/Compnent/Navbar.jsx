@@ -9,7 +9,7 @@ function Navbar() {
         <img src={myImage} alt="Logo"/>
     </div>
     <div className="search-container">
-        <input type="text" placeholder="Search Food Item..." style={{width: '130px'}}/>
+        <input type="text" placeholder="Search Food Item..." />
         <button type="button">Search</button>
     </div>
 </nav>
