@@ -1,0 +1,57 @@
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.foodmenu{
+   background-color: gray;
+   margin-top: 100px;
+}
+.foodmenu h1{
+    
+   text-align: center;
+    margin: 50px;
+    
+}
+
+
+.images{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.container{
+ 
+    padding: 10px;
+    border-radius: 10px;  
+    flex: 0 1 calc(50% - 10px); /* Set each item to take up 50% width minus the gap */
+   box-sizing: border-box;    /* Include padding and border in the element’s total width and height */
+   background-color: #f0f0f0; /* Optional: background color for visibility */
+   padding: 10px;             /* Optional: padding inside each item */
+   border: 1px solid #ccc;    /* Optional: border around each item */
+
+}
+.food-title{
+    flex: 2;
+    flex-wrap: wrap;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    line-height: 6px;
+}
+p{
+    font-size: 12px;
+}
+.seeMore{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.seeMore a{
+    text-decoration: none;
+    
+}
