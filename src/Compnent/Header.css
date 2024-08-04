@@ -1,8 +1,12 @@
 header{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
+    height: 100px;   
+    background: #000;
    
+    
+    
 }
 .headerContainer{
     display: flex;
@@ -11,12 +15,27 @@ header{
 .headerContainer ul{
     display: flex;
     list-style: none;
-    gap: 20px;
-    margin-left: 100px;
+    gap: 30px;
+    margin-left: 120px;
     cursor: pointer;
-    color: rgb(180, 73, 73);
+    /* color: rgb(180, 73, 73); */
+    color: white;
+}
+li{
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+li:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    color: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 }
 
 .headerLogo img{
     width: 50px;
+}
+.headerLogo span{
+    color: red;
+    margin-left: 10px;
 }

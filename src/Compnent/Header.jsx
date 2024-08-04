@@ -1,11 +1,13 @@
 import './Header.css'
-import apple from '../assets/apple.jpeg'
+import removebg from '../assets/logo-removebg-preview.png'
+
+
 
 function Header() {
   return (
     <header >
        <div className="headerLogo">
-        <img src={apple} alt="logo" />
+        <img src={removebg} alt="logo" />
         <span>WoW Food</span>
        </div>
        <div className="headerContainer">
