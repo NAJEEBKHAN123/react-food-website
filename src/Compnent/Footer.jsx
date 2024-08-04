@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
     <footer>
-    <div className="container">
+    <div className="containerr">
         {/* <div className="images"> */}
             <img src={facebook}  className='footerImg' alt="logo" />
             <img src={linkedin} className='footerImg' alt="logo" />

@@ -3,13 +3,8 @@ footer{
     justify-content: center;
     height: 50px;
     margin-top: -20px;
-    background: white;
+ 
    
-}
-
-.container{
-display: flex;
-justify-content: center;
 }
 .images{
     display: flex;
