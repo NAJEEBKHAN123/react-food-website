@@ -25,19 +25,19 @@ body {
 }
 
 .search-container {
-    display: flex;
+     display: flex;
     align-items: center;
-    gap: 10px;
-}
+    gap: 10px; 
+} 
 
 
 input{
     padding: 8px;
     border: none;
     border-radius: 3px;
-    outline: none;
-    width: 120px;
-    width: 120px;
+    outline: none; 
+    width:320px;
+
     
 }
 
