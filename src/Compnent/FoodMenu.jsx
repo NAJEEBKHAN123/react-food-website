@@ -13,7 +13,7 @@ function FoodMenu() {
     <main className='foodmenu' >
         <h1>Food Menu</h1>
         <div className='mainContainer'>
-    <div className="container">
+         <div className="container">
         <div className="image">
          <img src={pizza} alt="burger" className='images'/>
         </div>
