@@ -11,12 +11,10 @@ function Footer() {
     <>
     <footer>
     <div className="containerr">
-        {/* <div className="images"> */}
             <img src={facebook}  className='footerImg' alt="logo" />
             <img src={linkedin} className='footerImg' alt="logo" />
             <img src={github} className='footerImg' alt="logo" />
         </div>
-    {/* </div> */}
     </footer>
         <p style={{textAlign: 'center'}}>All rights reserved. Design by <span className='span'>Najeeb Khan</span></p>
     </>
